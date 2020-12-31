@@ -5,12 +5,12 @@ let output = document.getElementById("output");
 function convertHTML() {
   const Regex = /\s\bclass\b/;
   let html = input.value;
-  if (html) {
+  if (html !== "") {
     let spltd = html.split(Regex);
     let jnd = spltd.join("className");
     output.textContent = jnd;
   } else {
-    output.textContent = "Please insert an input";
+    output.textContent = "Please insert an input.";
   }
 }
 
