@@ -1,0 +1,66 @@
+body {
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#app {
+  margin-top: 50px;
+  padding: 20px 20px;
+}
+
+#container {
+  text-align: center;
+}
+
+#container-output {
+  text-align: center;
+}
+
+#output {
+  color: crimson;
+  margin: 20px;
+  padding: 10px 10px;
+  width: 1000px;
+  height: 450px;
+  border-radius: 10px 10px 10px 10px;
+  border: 1px solid black;
+  box-shadow: 8px 8px 0 0 black;
+  text-indent: ;
+}
+
+#output:focus {
+  outline: none;
+}
+
+#input {
+  color: royalblue;
+  margin: 20px;
+  padding: 10px 10px;
+  width: 1000px;
+  height: 200px;
+  border-radius: 10px 10px 10px 10px;
+  border: 1px solid black;
+  box-shadow: 8px 8px 0 0 black;
+}
+
+#input:focus {
+  outline: none;
+}
+
+#button {
+  text-align: center;
+  align-items: center;
+}
+
+button {
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 4px 40px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 0 0 black;
+  border-radius: 10px 10px 10px 10px;
+}
+
+button:active {
+  box-shadow: none;
+}
